@@ -1,0 +1,7 @@
+** sch_path: /home/kevin/Documents/msvsd3bitfadc/week0/inverter/xschem/inverter.sch
+.subckt inverter in vdd vss out
+*.PININFO in:I vdd:B vss:B out:O
+M1 out in vss vss sky130_fd_pr__nfet_01v8 L=0.18 W=13.5 nf=3 m=1
+M2 out in vdd vdd sky130_fd_pr__pfet_01v8 L=0.18 W=9 nf=3 m=1
+.ends
+.end
