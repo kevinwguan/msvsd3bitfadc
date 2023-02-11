@@ -1,0 +1,10 @@
+** sch_path: /home/kevin/Documents/msvsd3bitfadc/week0/inverter/xschem/inverter.sch
+.subckt nmos in vdd vss out
+*.PININFO in:I vdd:B vss:B out:O
+X1 out in vss vss sky130_fd_pr__nfet_01v8 L=0.25 W=2.125 ad=1.02e+10p pd=460000u as=0p ps=0u
+.ends
+.subckt pmos in vdd vss out
+*.PININFO in:I vdd:B vss:B out:O
+X2 out in vdd vdd sky130_fd_pr__pfet_01v8 L=0.25 W=2.125 ad=1.02e+10p pd=460000u as=1.02e+10p ps=460000u
+.ends
+.end

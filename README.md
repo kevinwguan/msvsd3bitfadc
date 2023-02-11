@@ -64,3 +64,20 @@ ext2spice
 netgen -batch lvs "../mag/inverter.spice inverter" "../xschem/inverter.spice inverter"
 ```
 ![Netgen](img/week0/netgen.png)
+![Load](img/week0/load.png)
+```
+extract all
+ext2spice
+```
+![Spice](img/week0/fn_postlayout_spice.png)
+![Cap](img/week0/cap.png)
+No ".option scale=0.125u" and has X (subcircuits) instead of M with more parasitic capacitances
+![Pre-layout](img/week0/pre-layout.png)
+```
+ngspice fn_prelayout.cir
+run
+setplot tran1
+plot out
+```
+![ngspice](img/week0/ngspice.png)
+![post-ngspice](img/week0/post-ngspice.png)
