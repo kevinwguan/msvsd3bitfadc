@@ -1,0 +1,13 @@
+[
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_M1_M2",
+    "instances": [
+      "M1",
+      "M2"
+    ],
+    "template_name": "INV",
+    "generator": null,
+    "constraints": null
+  }
+]

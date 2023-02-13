@@ -20,6 +20,8 @@ cd ALIGN-public
 python3 -m venv general
 source general/bin/activate
 python3 -m pip install pip --upgrade
+# In general
+source ~/ALIGN-public/general/bin/activate
 ```
 ```
 pip install -v .
@@ -46,7 +48,7 @@ $ cd ALIGN-public
 $ mkdir work && cd work
 $ schematic2layout.py ../ALIGN-pdk-sky130/examples/five_transistor_ota -p ../ALIGN-pdk-sky130/SKY130_PDK/
 ```
-## Pre- and Post-layout Characterization
+## Pre-layout Characterization
 Already finished in physical design workshop
 [My repo](https://github.com/kevinwguan/Physical-Verification-using-SKY130)
 ![Schematic](img/week0/schematic.png)
@@ -58,6 +60,7 @@ Already finished in physical design workshop
 extract do local
 extract all
 ext2spice lvs
+//ext2spice cthresh 0.01
 ext2spice
 ```
 ```
@@ -81,3 +84,20 @@ plot out
 ```
 ![ngspice](img/week0/ngspice.png)
 ![post-ngspice](img/week0/post-ngspice.png)
+## Post-layout Characterization
+### Magic output
+![Magic Spice](img/week0/magic-spice.png)
+![Magic Sim](img/week0/magic-sim.png)
+### Align tool
+```
+source ~/ALIGN-public/general/bin/activate
+schematic2layout.py ../ALIGN-pdk-sky130/examples/five_transistor_ota -p ../ALIGN-pdk-sky130/SKY130_PDK/
+magic -d XR
+<read python.gds file>
+<extract like above>
+<label ports in out vdd vss>
+```
+![Align](img/week0/align.png)
+![Align Layout](img/week0/align-layout.png)
+![Align SPICE](img/week0/align-spice.png)
+![Align Sim](img/week0/align-sim.png)
