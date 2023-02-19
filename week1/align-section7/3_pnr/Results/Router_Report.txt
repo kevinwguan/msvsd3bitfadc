@@ -1,0 +1,64 @@
+Node SECTION7_0
+  Net A_8_0#
+    Pin X_M5.B Find a path 1
+    Pin X_M6.B Find a path 1
+    Pin X_M0.B Find a path 1
+    Pin X_M3.B Find a path 1
+    Pin X_M11.B Find a path 1
+    Pin X_M4.B Find a path 1
+  Net 10
+    Pin X_M0.D Find a path 1
+    Pin X_M11.S Find a path 1
+  Net C
+    Pin X_M0.G Find a path 1
+    Pin X_M2.G Find a path 1
+  Net 9
+    Pin X_M5.D Find a path 1
+    Pin X_M0.S Find a path 1
+  Net 11
+    Pin X_M11.D Find a path 1
+    Pin X_M4.S Find a path 1
+  Net E
+    Pin X_M11.G Find a path 1
+    Pin X_M1.G Find a path 1
+  Net 13
+    Pin X_M6.S Find a path 1
+    Pin X_M3.D Find a path 1
+  Net D
+    Pin X_M3.G Find a path 1
+    Pin X_M7.G Find a path 1
+  Net 12
+    Pin X_M3.S Find a path 1
+    Pin X_M4.D Find a path 1
+  Net F
+    Pin X_M4.G Find a path 1
+    Pin X_M8.G Find a path 1
+  Net A
+    Pin X_M5.G Find a path 1
+    Pin X_M9.G Find a path 1
+  Net B
+    Pin X_M6.G Find a path 1
+    Pin X_M10.G Find a path 1
+  Net 15
+    Pin X_M9.B Find a path 1
+    Pin X_M10.B Find a path 1
+    Pin X_M2.B Find a path 1
+    Pin X_M7.B Find a path 1
+    Pin X_M1.B Find a path 1
+    Pin X_M8.B Find a path 1
+  Net 4
+    Pin X_M1.D Find a path 1
+    Pin X_M8.S Find a path 1
+  Net 3
+    Pin X_M2.D Find a path 1
+    Pin X_M1.S Find a path 1
+  Net 6
+    Pin X_M10.S Find a path 1
+    Pin X_M7.D Find a path 1
+  Net 2
+    Pin X_M9.D Find a path 1
+    Pin X_M2.S Find a path 1
+  Net 5
+    Pin X_M7.S Find a path 1
+    Pin X_M8.D Find a path 1
+Node 

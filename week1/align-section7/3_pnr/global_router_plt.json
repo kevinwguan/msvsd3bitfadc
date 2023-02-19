@@ -1,0 +1,1227 @@
+{
+    "Blocks": [
+        {
+            "Box": {
+                "LLx": 10320,
+                "LLy": 0,
+                "Physical Layer": "null",
+                "URx": 15480,
+                "URy": 15120
+            },
+            "Height": 15120,
+            "Name": "X_M0",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 12560,
+                            "LLy": 13160,
+                            "Physical Layer": "M2",
+                            "URx": 14960,
+                            "URy": 13720
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 12560,
+                            "LLy": 560,
+                            "Physical Layer": "M2",
+                            "URx": 14960,
+                            "URy": 1120
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 12560,
+                            "LLy": 8960,
+                            "Physical Layer": "M2",
+                            "URx": 14960,
+                            "URy": 9520
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 11700,
+                            "LLy": 1400,
+                            "Physical Layer": "M2",
+                            "URx": 14100,
+                            "URy": 1960
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 20640,
+                "LLy": 0,
+                "Physical Layer": "null",
+                "URx": 25800,
+                "URy": 15120
+            },
+            "Height": 15120,
+            "Name": "X_M11",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 22880,
+                            "LLy": 13160,
+                            "Physical Layer": "M2",
+                            "URx": 25280,
+                            "URy": 13720
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 22880,
+                            "LLy": 560,
+                            "Physical Layer": "M2",
+                            "URx": 25280,
+                            "URy": 1120
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 22880,
+                            "LLy": 8960,
+                            "Physical Layer": "M2",
+                            "URx": 25280,
+                            "URy": 9520
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 22020,
+                            "LLy": 1400,
+                            "Physical Layer": "M2",
+                            "URx": 24420,
+                            "URy": 1960
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 15480,
+                "LLy": 0,
+                "Physical Layer": "null",
+                "URx": 20640,
+                "URy": 15120
+            },
+            "Height": 15120,
+            "Name": "X_M3",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 16000,
+                            "LLy": 13160,
+                            "Physical Layer": "M2",
+                            "URx": 18400,
+                            "URy": 13720
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 16000,
+                            "LLy": 560,
+                            "Physical Layer": "M2",
+                            "URx": 18400,
+                            "URy": 1120
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 16000,
+                            "LLy": 8960,
+                            "Physical Layer": "M2",
+                            "URx": 18400,
+                            "URy": 9520
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 16860,
+                            "LLy": 1400,
+                            "Physical Layer": "M2",
+                            "URx": 19260,
+                            "URy": 1960
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 25800,
+                "LLy": 0,
+                "Physical Layer": "null",
+                "URx": 30960,
+                "URy": 15120
+            },
+            "Height": 15120,
+            "Name": "X_M4",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 26320,
+                            "LLy": 13160,
+                            "Physical Layer": "M2",
+                            "URx": 28720,
+                            "URy": 13720
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 26320,
+                            "LLy": 560,
+                            "Physical Layer": "M2",
+                            "URx": 28720,
+                            "URy": 1120
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 26320,
+                            "LLy": 8960,
+                            "Physical Layer": "M2",
+                            "URx": 28720,
+                            "URy": 9520
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 27180,
+                            "LLy": 1400,
+                            "Physical Layer": "M2",
+                            "URx": 29580,
+                            "URy": 1960
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 0,
+                "LLy": 0,
+                "Physical Layer": "null",
+                "URx": 5160,
+                "URy": 15120
+            },
+            "Height": 15120,
+            "Name": "X_M5",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 2240,
+                            "LLy": 13160,
+                            "Physical Layer": "M2",
+                            "URx": 4640,
+                            "URy": 13720
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 2240,
+                            "LLy": 560,
+                            "Physical Layer": "M2",
+                            "URx": 4640,
+                            "URy": 1120
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 2240,
+                            "LLy": 8960,
+                            "Physical Layer": "M2",
+                            "URx": 4640,
+                            "URy": 9520
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 1380,
+                            "LLy": 1400,
+                            "Physical Layer": "M2",
+                            "URx": 3780,
+                            "URy": 1960
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 5160,
+                "LLy": 0,
+                "Physical Layer": "null",
+                "URx": 10320,
+                "URy": 15120
+            },
+            "Height": 15120,
+            "Name": "X_M6",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 5680,
+                            "LLy": 13160,
+                            "Physical Layer": "M2",
+                            "URx": 8080,
+                            "URy": 13720
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 5680,
+                            "LLy": 560,
+                            "Physical Layer": "M2",
+                            "URx": 8080,
+                            "URy": 1120
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 5680,
+                            "LLy": 8960,
+                            "Physical Layer": "M2",
+                            "URx": 8080,
+                            "URy": 9520
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 6540,
+                            "LLy": 1400,
+                            "Physical Layer": "M2",
+                            "URx": 8940,
+                            "URy": 1960
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 20640,
+                "LLy": 15120,
+                "Physical Layer": "null",
+                "URx": 25800,
+                "URy": 30240
+            },
+            "Height": 15120,
+            "Name": "X_M1",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 22880,
+                            "LLy": 16520,
+                            "Physical Layer": "M2",
+                            "URx": 25280,
+                            "URy": 17080
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 22880,
+                            "LLy": 29120,
+                            "Physical Layer": "M2",
+                            "URx": 25280,
+                            "URy": 29680
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 22880,
+                            "LLy": 20720,
+                            "Physical Layer": "M2",
+                            "URx": 25280,
+                            "URy": 21280
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 22020,
+                            "LLy": 28280,
+                            "Physical Layer": "M2",
+                            "URx": 24420,
+                            "URy": 28840
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 5160,
+                "LLy": 15120,
+                "Physical Layer": "null",
+                "URx": 10320,
+                "URy": 30240
+            },
+            "Height": 15120,
+            "Name": "X_M10",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 5680,
+                            "LLy": 16520,
+                            "Physical Layer": "M2",
+                            "URx": 8080,
+                            "URy": 17080
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 5680,
+                            "LLy": 29120,
+                            "Physical Layer": "M2",
+                            "URx": 8080,
+                            "URy": 29680
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 5680,
+                            "LLy": 20720,
+                            "Physical Layer": "M2",
+                            "URx": 8080,
+                            "URy": 21280
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 6540,
+                            "LLy": 28280,
+                            "Physical Layer": "M2",
+                            "URx": 8940,
+                            "URy": 28840
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 10320,
+                "LLy": 15120,
+                "Physical Layer": "null",
+                "URx": 15480,
+                "URy": 30240
+            },
+            "Height": 15120,
+            "Name": "X_M2",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 12560,
+                            "LLy": 16520,
+                            "Physical Layer": "M2",
+                            "URx": 14960,
+                            "URy": 17080
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 12560,
+                            "LLy": 29120,
+                            "Physical Layer": "M2",
+                            "URx": 14960,
+                            "URy": 29680
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 12560,
+                            "LLy": 20720,
+                            "Physical Layer": "M2",
+                            "URx": 14960,
+                            "URy": 21280
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 11700,
+                            "LLy": 28280,
+                            "Physical Layer": "M2",
+                            "URx": 14100,
+                            "URy": 28840
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 15480,
+                "LLy": 15120,
+                "Physical Layer": "null",
+                "URx": 20640,
+                "URy": 30240
+            },
+            "Height": 15120,
+            "Name": "X_M7",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 16000,
+                            "LLy": 16520,
+                            "Physical Layer": "M2",
+                            "URx": 18400,
+                            "URy": 17080
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 16000,
+                            "LLy": 29120,
+                            "Physical Layer": "M2",
+                            "URx": 18400,
+                            "URy": 29680
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 16000,
+                            "LLy": 20720,
+                            "Physical Layer": "M2",
+                            "URx": 18400,
+                            "URy": 21280
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 16860,
+                            "LLy": 28280,
+                            "Physical Layer": "M2",
+                            "URx": 19260,
+                            "URy": 28840
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 25800,
+                "LLy": 15120,
+                "Physical Layer": "null",
+                "URx": 30960,
+                "URy": 30240
+            },
+            "Height": 15120,
+            "Name": "X_M8",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 26320,
+                            "LLy": 16520,
+                            "Physical Layer": "M2",
+                            "URx": 28720,
+                            "URy": 17080
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 26320,
+                            "LLy": 29120,
+                            "Physical Layer": "M2",
+                            "URx": 28720,
+                            "URy": 29680
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 26320,
+                            "LLy": 20720,
+                            "Physical Layer": "M2",
+                            "URx": 28720,
+                            "URy": 21280
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 27180,
+                            "LLy": 28280,
+                            "Physical Layer": "M2",
+                            "URx": 29580,
+                            "URy": 28840
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        },
+        {
+            "Box": {
+                "LLx": 0,
+                "LLy": 15120,
+                "Physical Layer": "null",
+                "URx": 5160,
+                "URy": 30240
+            },
+            "Height": 15120,
+            "Name": "X_M9",
+            "Pins": [
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 2240,
+                            "LLy": 16520,
+                            "Physical Layer": "M2",
+                            "URx": 4640,
+                            "URy": 17080
+                        }
+                    ],
+                    "Name": "B"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 2240,
+                            "LLy": 29120,
+                            "Physical Layer": "M2",
+                            "URx": 4640,
+                            "URy": 29680
+                        }
+                    ],
+                    "Name": "D"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 2240,
+                            "LLy": 20720,
+                            "Physical Layer": "M2",
+                            "URx": 4640,
+                            "URy": 21280
+                        }
+                    ],
+                    "Name": "G"
+                },
+                {
+                    "Internal Metal": [
+                        {
+                            "LLx": 1380,
+                            "LLy": 28280,
+                            "Physical Layer": "M2",
+                            "URx": 3780,
+                            "URy": 28840
+                        }
+                    ],
+                    "Name": "S"
+                }
+            ],
+            "Width": 5160
+        }
+    ],
+    "Cell Name": "SECTION7",
+    "Cell box": {
+        "LLx": 0,
+        "LLy": 0,
+        "Physical Layer": "null",
+        "URx": 30960,
+        "URy": 30240
+    },
+    "Gcell": [
+        {
+            "Physical Layer": 0,
+            "x": 15480,
+            "y": 15120
+        },
+        {
+            "Physical Layer": 1,
+            "x": 15480,
+            "y": 15120
+        },
+        {
+            "Physical Layer": 2,
+            "x": 15480,
+            "y": 15120
+        },
+        {
+            "Physical Layer": 3,
+            "x": 15480,
+            "y": 15120
+        },
+        {
+            "Physical Layer": 4,
+            "x": 15480,
+            "y": 15120
+        }
+    ],
+    "Glbaol_Routes": [
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "A_8_0#",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "10",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "C",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "9",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "11",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "E",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "13",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "D",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "12",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "F",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "A",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "8",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "14",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "B",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "15",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "4",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "3",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "7",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "6",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "2",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "5",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 1,
+                    "Physical Layer ur": 1,
+                    "llx": 15480,
+                    "lly": 15120,
+                    "urx": 15480,
+                    "ury": 15120
+                }
+            ],
+            "name": "1",
+            "terminals": [
+                {
+                    "Physical Layer": 1,
+                    "x": 15480,
+                    "y": 15120
+                }
+            ]
+        }
+    ],
+    "Istop": true,
+    "Units": "0.5nm"
+}

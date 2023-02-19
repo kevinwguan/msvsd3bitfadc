@@ -1,0 +1,17 @@
+2023-02-18 18:26:13 align.main INFO : Reading netlist: /home/kevin/Documents/msvsd3bitfadc/week1/align-section7/section7/section7.sp subckt=SECTION7, flat=0
+2023-02-18 18:26:13 align.compiler.compiler INFO : Starting topology identification...
+2023-02-18 18:26:14 align.compiler.compiler INFO : Power and ground nets not found. Power grid will not be constructed.
+2023-02-18 18:26:14 align.compiler.compiler INFO : Completed topology identification.
+2023-02-18 18:26:14 align.cmdline ERROR : Fatal Error. Cannot proceed
+Traceback (most recent call last):
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/cmdline.py", line 176, in parse_args
+    return schematic2layout(**vars(arguments))
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/main.py", line 178, in schematic2layout
+    primitives = generate_primitives(primitive_lib, pdk_dir, primitive_dir, netlist_dir)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/primitive/main.py", line 144, in generate_primitives
+    generate_primitive_param(primitive, primitives, pdk_dir)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/primitive/main.py", line 165, in generate_primitive_param
+    rc = modules.gen_param(subckt, primitives, pdk_dir)
+  File "/home/kevin/ALIGN-pdk-sky130/SKY130_PDK/gen_param.py", line 124, in gen_param
+    assert int(
+AssertionError: Width of device M1 in DP_NMOS_B_79792878 should be multiple of fin pitch:210

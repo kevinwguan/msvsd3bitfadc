@@ -1,0 +1,335 @@
+{
+  "modules": [
+    {
+      "name": "SECTION7",
+      "parameters": [
+        "VDD",
+        "OUT",
+        "GND",
+        "A",
+        "C",
+        "E",
+        "F",
+        "D",
+        "B"
+      ],
+      "constraints": [
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_M1",
+              "X_M8"
+            ],
+            [
+              "X_M10",
+              "X_M0"
+            ],
+            [
+              "X_M4",
+              "X_M5"
+            ],
+            [
+              "X_M9",
+              "X_M11"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_M3",
+              "X_M7"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricNets",
+          "net1": "D",
+          "net2": "C",
+          "pins1": [
+            "X_M9/G",
+            "X_M4/G",
+            "D"
+          ],
+          "pins2": [
+            "X_M11/G",
+            "X_M5/G",
+            "C"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricNets",
+          "net1": "B",
+          "net2": "F",
+          "pins1": [
+            "X_M3/G",
+            "B"
+          ],
+          "pins2": [
+            "X_M7/G",
+            "F"
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "DP_NMOS_B_79792878",
+          "instance_name": "X_M2_M6",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_80_20#"
+            },
+            {
+              "formal": "DA",
+              "actual": "A_600_180#"
+            },
+            {
+              "formal": "DB",
+              "actual": "A_280_180#"
+            },
+            {
+              "formal": "GA",
+              "actual": "E"
+            },
+            {
+              "formal": "GB",
+              "actual": "A"
+            },
+            {
+              "formal": "S",
+              "actual": "OUT"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "NMOS_4T_16965941",
+          "instance_name": "X_M11",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_80_20#"
+            },
+            {
+              "formal": "D",
+              "actual": "OUT"
+            },
+            {
+              "formal": "G",
+              "actual": "C"
+            },
+            {
+              "formal": "S",
+              "actual": "A_280_180#"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "NMOS_4T_16965941",
+          "instance_name": "X_M3",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_80_20#"
+            },
+            {
+              "formal": "D",
+              "actual": "GND"
+            },
+            {
+              "formal": "G",
+              "actual": "B"
+            },
+            {
+              "formal": "S",
+              "actual": "A_920_180#"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "NMOS_4T_16965941",
+          "instance_name": "X_M7",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_80_20#"
+            },
+            {
+              "formal": "D",
+              "actual": "GND"
+            },
+            {
+              "formal": "G",
+              "actual": "F"
+            },
+            {
+              "formal": "S",
+              "actual": "A_600_180#"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "NMOS_4T_16965941",
+          "instance_name": "X_M9",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_80_20#"
+            },
+            {
+              "formal": "D",
+              "actual": "A_920_180#"
+            },
+            {
+              "formal": "G",
+              "actual": "D"
+            },
+            {
+              "formal": "S",
+              "actual": "GND"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "PMOS_4T_70537819",
+          "instance_name": "X_M0",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "W_20_640#"
+            },
+            {
+              "formal": "D",
+              "actual": "A_280_760#"
+            },
+            {
+              "formal": "G",
+              "actual": "A"
+            },
+            {
+              "formal": "S",
+              "actual": "VDD"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "PMOS_4T_70537819",
+          "instance_name": "X_M1",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "W_20_640#"
+            },
+            {
+              "formal": "D",
+              "actual": "A_760_760#"
+            },
+            {
+              "formal": "G",
+              "actual": "F"
+            },
+            {
+              "formal": "S",
+              "actual": "OUT"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "PMOS_4T_70537819",
+          "instance_name": "X_M10",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "W_20_640#"
+            },
+            {
+              "formal": "D",
+              "actual": "VDD"
+            },
+            {
+              "formal": "G",
+              "actual": "B"
+            },
+            {
+              "formal": "S",
+              "actual": "A_920_760#"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "PMOS_4T_70537819",
+          "instance_name": "X_M4",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "W_20_640#"
+            },
+            {
+              "formal": "D",
+              "actual": "A_920_760#"
+            },
+            {
+              "formal": "G",
+              "actual": "D"
+            },
+            {
+              "formal": "S",
+              "actual": "A_760_760#"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "PMOS_4T_70537819",
+          "instance_name": "X_M5",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "W_20_640#"
+            },
+            {
+              "formal": "D",
+              "actual": "A_440_760#"
+            },
+            {
+              "formal": "G",
+              "actual": "C"
+            },
+            {
+              "formal": "S",
+              "actual": "A_280_760#"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "PMOS_4T_70537819",
+          "instance_name": "X_M8",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "W_20_640#"
+            },
+            {
+              "formal": "D",
+              "actual": "OUT"
+            },
+            {
+              "formal": "G",
+              "actual": "E"
+            },
+            {
+              "formal": "S",
+              "actual": "A_440_760#"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "global_signals": []
+}

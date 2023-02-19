@@ -1,0 +1,377 @@
+{
+  "modules": [
+    {
+      "name": "SECTION7",
+      "parameters": [
+        "VDD",
+        "OUT",
+        "GND",
+        "A",
+        "C",
+        "E",
+        "F",
+        "D",
+        "B"
+      ],
+      "constraints": [
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_M5",
+              "X_M6"
+            ],
+            [
+              "X_M9",
+              "X_M10"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_M0",
+              "X_M3"
+            ],
+            [
+              "X_M2",
+              "X_M7"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_M1",
+              "X_M8"
+            ],
+            [
+              "X_M11",
+              "X_M4"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricNets",
+          "net1": "A",
+          "net2": "B",
+          "pins1": [
+            "X_M5/G",
+            "X_M9/G",
+            "A"
+          ],
+          "pins2": [
+            "X_M6/G",
+            "X_M10/G",
+            "B"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricNets",
+          "net1": "C",
+          "net2": "D",
+          "pins1": [
+            "X_M0/G",
+            "X_M2/G",
+            "C"
+          ],
+          "pins2": [
+            "X_M3/G",
+            "X_M7/G",
+            "D"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricNets",
+          "net1": "E",
+          "net2": "F",
+          "pins1": [
+            "X_M11/G",
+            "X_M1/G",
+            "E"
+          ],
+          "pins2": [
+            "X_M4/G",
+            "X_M8/G",
+            "F"
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "instance_name": "X_M0",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_8_0#"
+            },
+            {
+              "formal": "D",
+              "actual": "10"
+            },
+            {
+              "formal": "G",
+              "actual": "C"
+            },
+            {
+              "formal": "S",
+              "actual": "9"
+            }
+          ],
+          "abstract_template_name": "NMOS_4T_81744335"
+        },
+        {
+          "instance_name": "X_M11",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_8_0#"
+            },
+            {
+              "formal": "D",
+              "actual": "11"
+            },
+            {
+              "formal": "G",
+              "actual": "E"
+            },
+            {
+              "formal": "S",
+              "actual": "10"
+            }
+          ],
+          "abstract_template_name": "NMOS_4T_81744335"
+        },
+        {
+          "instance_name": "X_M3",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_8_0#"
+            },
+            {
+              "formal": "D",
+              "actual": "13"
+            },
+            {
+              "formal": "G",
+              "actual": "D"
+            },
+            {
+              "formal": "S",
+              "actual": "12"
+            }
+          ],
+          "abstract_template_name": "NMOS_4T_81744335"
+        },
+        {
+          "instance_name": "X_M4",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_8_0#"
+            },
+            {
+              "formal": "D",
+              "actual": "12"
+            },
+            {
+              "formal": "G",
+              "actual": "F"
+            },
+            {
+              "formal": "S",
+              "actual": "11"
+            }
+          ],
+          "abstract_template_name": "NMOS_4T_81744335"
+        },
+        {
+          "instance_name": "X_M5",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_8_0#"
+            },
+            {
+              "formal": "D",
+              "actual": "9"
+            },
+            {
+              "formal": "G",
+              "actual": "A"
+            },
+            {
+              "formal": "S",
+              "actual": "8"
+            }
+          ],
+          "abstract_template_name": "NMOS_4T_81744335"
+        },
+        {
+          "instance_name": "X_M6",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "A_8_0#"
+            },
+            {
+              "formal": "D",
+              "actual": "14"
+            },
+            {
+              "formal": "G",
+              "actual": "B"
+            },
+            {
+              "formal": "S",
+              "actual": "13"
+            }
+          ],
+          "abstract_template_name": "NMOS_4T_81744335"
+        },
+        {
+          "instance_name": "X_M1",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "15"
+            },
+            {
+              "formal": "D",
+              "actual": "4"
+            },
+            {
+              "formal": "G",
+              "actual": "E"
+            },
+            {
+              "formal": "S",
+              "actual": "3"
+            }
+          ],
+          "abstract_template_name": "PMOS_4T_13952555"
+        },
+        {
+          "instance_name": "X_M10",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "15"
+            },
+            {
+              "formal": "D",
+              "actual": "7"
+            },
+            {
+              "formal": "G",
+              "actual": "B"
+            },
+            {
+              "formal": "S",
+              "actual": "6"
+            }
+          ],
+          "abstract_template_name": "PMOS_4T_13952555"
+        },
+        {
+          "instance_name": "X_M2",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "15"
+            },
+            {
+              "formal": "D",
+              "actual": "3"
+            },
+            {
+              "formal": "G",
+              "actual": "C"
+            },
+            {
+              "formal": "S",
+              "actual": "2"
+            }
+          ],
+          "abstract_template_name": "PMOS_4T_13952555"
+        },
+        {
+          "instance_name": "X_M7",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "15"
+            },
+            {
+              "formal": "D",
+              "actual": "6"
+            },
+            {
+              "formal": "G",
+              "actual": "D"
+            },
+            {
+              "formal": "S",
+              "actual": "5"
+            }
+          ],
+          "abstract_template_name": "PMOS_4T_13952555"
+        },
+        {
+          "instance_name": "X_M8",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "15"
+            },
+            {
+              "formal": "D",
+              "actual": "5"
+            },
+            {
+              "formal": "G",
+              "actual": "F"
+            },
+            {
+              "formal": "S",
+              "actual": "4"
+            }
+          ],
+          "abstract_template_name": "PMOS_4T_13952555"
+        },
+        {
+          "instance_name": "X_M9",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "15"
+            },
+            {
+              "formal": "D",
+              "actual": "2"
+            },
+            {
+              "formal": "G",
+              "actual": "A"
+            },
+            {
+              "formal": "S",
+              "actual": "1"
+            }
+          ],
+          "abstract_template_name": "PMOS_4T_13952555"
+        }
+      ]
+    }
+  ],
+  "global_signals": []
+}
