@@ -60,7 +60,7 @@ Already finished in physical design workshop
 extract do local
 extract all
 ext2spice lvs
-//ext2spice cthresh 0.01
+//ext2spice cthresh 0.01 rthresh 0
 ext2spice
 ```
 ```
@@ -101,3 +101,15 @@ magic -d XR
 ![Align Layout](img/week0/align-layout.png)
 ![Align SPICE](img/week0/align-spice.png)
 ![Align Sim](img/week0/align-sim.png)
+# Week1
+Multiplied all mag file rect dimensions due to incorrect sizing
+![Fn Post Layout](img/week1/section7-layout.png)
+![Netlist](img/week1/section7-netlist.png)
+![Simulation](img/week1/section7-sim.png)
+Using Align instead of magic
+![Align Output](img/week1/align-section7-output.png)
+![Align Layout](img/week1/align-section7.png)
+![Spice Netlist](img/week1/spice1-netlist.png)
+![Spice Simulation](img/week1/spice2-sim.png)
+![Spice Netlist](img/week1/spice2-netlist.png)
+![Spice Simulation](img/week1/spice1-sim.png)
