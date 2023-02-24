@@ -113,3 +113,28 @@ Multiplied all mag file rect dimensions due to incorrect sizing
 ![Spice Simulation](img/week1/spice2-sim.png)
 ![Spice Netlist](img/week1/spice2-netlist.png)
 ![Spice Simulation](img/week1/spice1-sim.png)
+## Week2
+```
+cd
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD.git
+cd OpenROAD
+./etc/DependencyInstaller.sh
+cd
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+cd OpenROAD-flow-scripts
+./build_openroad.sh –local
+export OPENROAD=~/OpenROAD-flow-scripts/tools/OpenROAD
+export PATH=~/OpenROAD-flow-scripts/tools/install/OpenROAD/bin:~/OpenROAD-flow-scripts/tools/install/yosys/bin:~/OpenROAD-flow-scripts/tools/install/LSOracle/bin:$PATH
+```
+![Header file in Klayout](img/week2/config.png)
+### Temperature Sensor Generation
+![HEADER file in Klayout](img/week2/header.png)
+![SLC file in Klayout](img/week2/slc.png)
+![Make Done](img/week2/make-done.png)
+![Results](img/week2/results.png)
+![Before and After for Counter](img/week2/before-after.png)
+![Openroad Flow](img/week2/openroad.png)
+![Next Steps](img/week2/next-steps.png)
+![Floorplan Log](img/week2/floorplan.png)
+![Finished Report](img/week2/finished.png)
+![Finished GDS](img/week2/finalgds.png)
