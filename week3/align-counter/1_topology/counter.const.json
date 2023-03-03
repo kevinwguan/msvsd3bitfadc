@@ -1,0 +1,119 @@
+[
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_M1_M2_M3_M4",
+    "instances": [
+      "M1",
+      "M2",
+      "M3",
+      "M4"
+    ],
+    "template_name": "STAGE2_INV",
+    "generator": null,
+    "constraints": null
+  },
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_M5_M6",
+    "instances": [
+      "M5",
+      "M6"
+    ],
+    "template_name": "INV",
+    "generator": null,
+    "constraints": null
+  },
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_R1",
+    "instances": [
+      "R1"
+    ],
+    "template_name": "RES_2T",
+    "generator": {
+      "name": "res",
+      "parameters": null
+    },
+    "constraints": null
+  },
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_M0",
+    "instances": [
+      "M0"
+    ],
+    "template_name": "DCL_NMOS_S",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    },
+    "constraints": null
+  },
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_M7",
+    "instances": [
+      "M7"
+    ],
+    "template_name": "DCL_NMOS_S",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    },
+    "constraints": null
+  },
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_M8",
+    "instances": [
+      "M8"
+    ],
+    "template_name": "DCL_NMOS_S",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    },
+    "constraints": null
+  },
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_M9",
+    "instances": [
+      "M9"
+    ],
+    "template_name": "DCL_NMOS_S",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    },
+    "constraints": null
+  },
+  {
+    "constraint": "SymmetricBlocks",
+    "pairs": [
+      [
+        "X_M0",
+        "X_M9"
+      ],
+      [
+        "X_M7",
+        "X_M8"
+      ]
+    ],
+    "direction": "V"
+  },
+  {
+    "constraint": "SymmetricNets",
+    "net1": "Q0",
+    "net2": "Q1",
+    "pins1": [
+      "X_M0/D",
+      "Q0"
+    ],
+    "pins2": [
+      "X_M9/D",
+      "Q1"
+    ],
+    "direction": "V"
+  }
+]

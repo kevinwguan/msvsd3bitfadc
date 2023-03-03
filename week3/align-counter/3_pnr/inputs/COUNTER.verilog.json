@@ -1,0 +1,333 @@
+{
+  "modules": [
+    {
+      "name": "COUNTER",
+      "parameters": [
+        "CLK",
+        "IN",
+        "GND",
+        "Q3",
+        "Q2",
+        "Q1",
+        "Q0"
+      ],
+      "constraints": [
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_M0",
+              "X_M9"
+            ],
+            [
+              "X_M7",
+              "X_M8"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricNets",
+          "net1": "Q0",
+          "net2": "Q1",
+          "pins1": [
+            "X_M0/D",
+            "Q0"
+          ],
+          "pins2": [
+            "X_M9/D",
+            "Q1"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricNets",
+          "net1": "Q3",
+          "net2": "Q2",
+          "pins1": [
+            "X_M7/D",
+            "Q3"
+          ],
+          "pins2": [
+            "X_M8/D",
+            "Q2"
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "instance_name": "X_M1_M2_M3_M4",
+          "fa_map": [
+            {
+              "formal": "SN",
+              "actual": "GND"
+            },
+            {
+              "formal": "SP",
+              "actual": "IN"
+            },
+            {
+              "formal": "VI",
+              "actual": "CLK"
+            },
+            {
+              "formal": "VO",
+              "actual": "NET10"
+            }
+          ],
+          "abstract_template_name": "STAGE2_INV_91993238"
+        },
+        {
+          "instance_name": "X_M5_M6",
+          "fa_map": [
+            {
+              "formal": "I",
+              "actual": "NET10"
+            },
+            {
+              "formal": "SN",
+              "actual": "GND"
+            },
+            {
+              "formal": "SP",
+              "actual": "IN"
+            },
+            {
+              "formal": "ZN",
+              "actual": "CLK"
+            }
+          ],
+          "abstract_template_name": "INV_51832211"
+        },
+        {
+          "instance_name": "X_M0",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "Q0"
+            },
+            {
+              "formal": "S",
+              "actual": "GND"
+            }
+          ],
+          "abstract_template_name": "DCL_NMOS_S_28285743"
+        },
+        {
+          "instance_name": "X_M7",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "Q3"
+            },
+            {
+              "formal": "S",
+              "actual": "GND"
+            }
+          ],
+          "abstract_template_name": "DCL_NMOS_S_28285743"
+        },
+        {
+          "instance_name": "X_M8",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "Q2"
+            },
+            {
+              "formal": "S",
+              "actual": "GND"
+            }
+          ],
+          "abstract_template_name": "DCL_NMOS_S_28285743"
+        },
+        {
+          "instance_name": "X_M9",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "Q1"
+            },
+            {
+              "formal": "S",
+              "actual": "GND"
+            }
+          ],
+          "abstract_template_name": "DCL_NMOS_S_28285743"
+        }
+      ]
+    },
+    {
+      "name": "STAGE2_INV_91993238",
+      "parameters": [
+        "VI",
+        "VO",
+        "SN",
+        "SP"
+      ],
+      "constraints": [
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_M0"
+            ],
+            [
+              "X_M1"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_M2"
+            ],
+            [
+              "X_M3"
+            ]
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "instance_name": "X_M0",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "VM"
+            },
+            {
+              "formal": "G",
+              "actual": "VI"
+            },
+            {
+              "formal": "S",
+              "actual": "SN"
+            }
+          ],
+          "abstract_template_name": "NMOS_S_54487678"
+        },
+        {
+          "instance_name": "X_M2",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "VO"
+            },
+            {
+              "formal": "G",
+              "actual": "VM"
+            },
+            {
+              "formal": "S",
+              "actual": "SN"
+            }
+          ],
+          "abstract_template_name": "NMOS_S_54487678"
+        },
+        {
+          "instance_name": "X_M1",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "VM"
+            },
+            {
+              "formal": "G",
+              "actual": "VI"
+            },
+            {
+              "formal": "S",
+              "actual": "SP"
+            }
+          ],
+          "abstract_template_name": "PMOS_S_87189516"
+        },
+        {
+          "instance_name": "X_M3",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "VO"
+            },
+            {
+              "formal": "G",
+              "actual": "VM"
+            },
+            {
+              "formal": "S",
+              "actual": "SP"
+            }
+          ],
+          "abstract_template_name": "PMOS_S_87189516"
+        }
+      ]
+    },
+    {
+      "name": "INV_51832211",
+      "parameters": [
+        "I",
+        "ZN",
+        "SN",
+        "SP"
+      ],
+      "constraints": [
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_M0"
+            ],
+            [
+              "X_M1"
+            ]
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "instance_name": "X_M0",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "ZN"
+            },
+            {
+              "formal": "G",
+              "actual": "I"
+            },
+            {
+              "formal": "S",
+              "actual": "SN"
+            }
+          ],
+          "abstract_template_name": "NMOS_S_54487678"
+        },
+        {
+          "instance_name": "X_M1",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "ZN"
+            },
+            {
+              "formal": "G",
+              "actual": "I"
+            },
+            {
+              "formal": "S",
+              "actual": "SP"
+            }
+          ],
+          "abstract_template_name": "PMOS_S_87189516"
+        }
+      ]
+    }
+  ],
+  "global_signals": []
+}

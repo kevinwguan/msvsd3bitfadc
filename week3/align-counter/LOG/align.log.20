@@ -1,0 +1,20 @@
+2023-03-02 23:27:38 align.main INFO : Reading netlist: /home/kevin/Downloads/msvsd3bitfadc/week3/align-counter/counter/counter.sp subckt=COUNTER, flat=0
+2023-03-02 23:27:38 align.compiler.compiler INFO : Starting topology identification...
+2023-03-02 23:27:38 align.compiler.compiler INFO : Power and ground nets not found. Power grid will not be constructed.
+2023-03-02 23:27:38 align.compiler.compiler INFO : Completed topology identification.
+2023-03-02 23:27:38 align.cell_fabric.remove_duplicates ERROR : Found errors: SHORT: 0 OPEN: 2 DIFFERENT WIDTH: 0
+2023-03-02 23:27:38 align.cmdline ERROR : Fatal Error. Cannot proceed
+Traceback (most recent call last):
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/cmdline.py", line 176, in parse_args
+    return schematic2layout(**vars(arguments))
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/main.py", line 178, in schematic2layout
+    primitives = generate_primitives(primitive_lib, pdk_dir, primitive_dir, netlist_dir)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/primitive/main.py", line 152, in generate_primitives
+    uc = generate_primitive(block_name, primitive_def,  ** block_args,
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/primitive/main.py", line 189, in generate_primitive
+    uc, _ = generate_Res(pdkdir, block_name, height, x_cells, y_cells, value[0], value[1])
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/primitive/main.py", line 107, in generate_Res
+    uc = generator(pdk, fin, finDummy)
+  File "/home/kevin/ALIGN-pdk-sky130/SKY130_PDK/res.py", line 15, in __init__
+    clg=ColoredCenterLineGrid( colors=['c1','c2'], pitch=self.pdk['Cap']['m1Pitch'], width=self.pdk['Cap']['m1Width']),
+KeyError: 'm1Pitch'

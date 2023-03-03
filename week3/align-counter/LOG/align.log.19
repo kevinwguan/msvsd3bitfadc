@@ -1,0 +1,53 @@
+2023-03-02 23:29:29 align.main INFO : Reading netlist: /home/kevin/Downloads/msvsd3bitfadc/week3/align-counter/counter/counter.sp subckt=COUNTER, flat=0
+2023-03-02 23:29:29 align.compiler.compiler INFO : Starting topology identification...
+2023-03-02 23:29:29 align.compiler.compiler INFO : Power and ground nets not found. Power grid will not be constructed.
+2023-03-02 23:29:29 align.compiler.compiler INFO : Completed topology identification.
+2023-03-02 23:29:29 align.cell_fabric.remove_duplicates ERROR : Found errors: SHORT: 0 OPEN: 2 DIFFERENT WIDTH: 0
+2023-03-02 23:29:29 align.pnr.main INFO : Running Place & Route for COUNTER
+2023-03-02 23:29:30 align.pnr.build_pnr_model INFO : Reading contraint json file COUNTER.pnr.const.json
+2023-03-02 23:29:30 align.pnr.build_pnr_model INFO : Reading contraint json file INV_51832211.pnr.const.json
+2023-03-02 23:29:30 align.pnr.build_pnr_model INFO : Reading contraint json file COUNTER.pnr.const.json
+2023-03-02 23:29:30 align.pnr.build_pnr_model INFO : Reading contraint json file INV_51832211.pnr.const.json
+2023-03-02 23:29:30 align.pnr.placer INFO : Starting bottom-up placement on INV_51832211 1
+2023-03-02 23:29:30 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2023-03-02 23:29:30 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of seq pairs and found 1 placement solution(s)
+2023-03-02 23:29:30 align.pnr.placer INFO : Starting bottom-up placement on COUNTER 0
+2023-03-02 23:29:30 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2023-03-02 23:29:37 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 10 %
+2023-03-02 23:29:44 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 20 %
+2023-03-02 23:29:50 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 30 %
+2023-03-02 23:29:57 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 40 %
+2023-03-02 23:30:03 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 50 %
+2023-03-02 23:30:10 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 60 %
+2023-03-02 23:30:17 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 70 %
+2023-03-02 23:30:24 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 80 %
+2023-03-02 23:30:31 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 90 %
+2023-03-02 23:30:38 align.pnr.build_pnr_model INFO : Reading contraint json file COUNTER.pnr.const.json
+2023-03-02 23:30:38 align.pnr.build_pnr_model INFO : Reading contraint json file INV_51832211.pnr.const.json
+2023-03-02 23:30:38 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2023-03-02 23:30:39 align.pnr.router INFO : Starting top_down routing on COUNTER 0 restricted to None
+2023-03-02 23:30:39 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: INV_51832211
+2023-03-02 23:30:39 PnR.router.Router.RouteWork INFO : GcellDetailRouter: INV_51832211
+2023-03-02 23:30:39 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: COUNTER
+2023-03-02 23:30:39 PnR.router.GlobalGraph.dijkstra WARNING : Router-Warning: ulist empty
+2023-03-02 23:30:39 align.cmdline ERROR : Fatal Error. Cannot proceed
+Traceback (most recent call last):
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/cmdline.py", line 176, in parse_args
+    return schematic2layout(**vars(arguments))
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/main.py", line 189, in schematic2layout
+    variants = generate_pnr(topology_dir, primitive_dir, pdk_dir, pnr_dir, subckt, primitives=primitives, nvariants=nvariants, effort=effort,
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/pnr/main.py", line 405, in generate_pnr
+    results_name_map = router_driver(cap_map=cap_map, cap_lef_s=cap_lef_s,
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/pnr/router.py", line 413, in router_driver
+    res = route( DB=DB, idx=DB.TraverseHierTree()[-1], opath=opath, adr_mode=adr_mode, PDN_mode=PDN_mode,
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/pnr/router.py", line 332, in route
+    return router_engines[router_mode]( DB=DB, idx=idx, opath=opath, adr_mode=adr_mode, PDN_mode=PDN_mode, skipGDS=skipGDS, placements_to_run=placements_to_run, nroutings=nroutings)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/pnr/router.py", line 312, in route_top_down
+    new_topnode_idx = route_top_down_aux( DB, DB.getDrc_info(),
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/pnr/router.py", line 272, in route_top_down_aux
+    result_name = route_single_variant( DB, drcInfo, current_node, lidx, opath, adr_mode, PDN_mode=PDN_mode, noGDS=skipGDS, noExtra=skipGDS)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/pnr/router.py", line 67, in route_single_variant
+    RouteWork( 6 if adr_mode else 4, current_node)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/pnr/router.py", line 63, in RouteWork
+    curr_route.RouteWork( mode, current_node, drcInfo,
+RuntimeError: Empty path

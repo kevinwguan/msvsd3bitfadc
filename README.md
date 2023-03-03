@@ -138,3 +138,9 @@ export PATH=~/OpenROAD-flow-scripts/tools/install/OpenROAD/bin:~/OpenROAD-flow-s
 ![Floorplan Log](img/week2/floorplan.png)
 ![Finished Report](img/week2/finished.png)
 ![Finished GDS](img/week2/finalgds.png)
+## Week3
+![Analog Schematic](img/week3/schematic.png)
+![Analog Pre-layout Sim](img/week3/pre-layout.png)
+ALIGN flow utilized with diode connected MOSFETs and capacitors left out
+GDS files placed into corresponding folders.
+![Align flow for counter analog files](img/week3/align-counter.png)
