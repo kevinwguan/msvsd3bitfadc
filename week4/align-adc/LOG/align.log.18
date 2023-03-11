@@ -1,0 +1,17 @@
+2023-03-10 14:39:47 align.main INFO : Reading netlist: /home/kevin/Downloads/msvsd3bitfadc/week4/align-adc/adc/adc.sp subckt=ADC, flat=0
+2023-03-10 14:39:47 align.compiler.compiler INFO : Starting topology identification...
+2023-03-10 14:39:48 align.compiler.compiler INFO : Power and ground nets not found. Power grid will not be constructed.
+2023-03-10 14:39:48 align.compiler.compiler INFO : Completed topology identification.
+2023-03-10 14:39:48 align.cmdline ERROR : Fatal Error. Cannot proceed
+Traceback (most recent call last):
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/cmdline.py", line 176, in parse_args
+    return schematic2layout(**vars(arguments))
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/main.py", line 178, in schematic2layout
+    primitives = generate_primitives(primitive_lib, pdk_dir, primitive_dir, netlist_dir)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/primitive/main.py", line 144, in generate_primitives
+    generate_primitive_param(primitive, primitives, pdk_dir)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/primitive/main.py", line 165, in generate_primitive_param
+    rc = modules.gen_param(subckt, primitives, pdk_dir)
+  File "/home/kevin/ALIGN-pdk-sky130/SKY130_PDK/gen_param.py", line 149, in gen_param
+    assert int(mvalues[device_name]["NFIN"]) == int(mvalues[key]["NFIN"]), f"W should be same for all devices in {name} {mvalues}"
+NameError: name 'name' is not defined

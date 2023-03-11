@@ -1,0 +1,29 @@
+[
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_M0_M1",
+    "instances": [
+      "M0",
+      "M1"
+    ],
+    "template_name": "SCM_PMOS",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    },
+    "constraints": null
+  },
+  {
+    "constraint": "GroupBlocks",
+    "instance_name": "X_M2",
+    "instances": [
+      "M2"
+    ],
+    "template_name": "PMOS_S",
+    "generator": {
+      "name": "MOS",
+      "parameters": null
+    },
+    "constraints": null
+  }
+]

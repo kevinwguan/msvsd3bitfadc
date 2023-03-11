@@ -1,0 +1,38 @@
+Node CMB_PMOS_2_81333957_0
+  Net DA
+    Pin X_M2.G Find a path 1
+    Pin X_M0_M1.DA Find a path 1
+  Net S
+    Pin X_M2.S Find a path 1
+    Pin X_M0_M1.S Find a path 1
+Node ADC_FINAL_0
+  Net VREF
+    Pin X_XM2_XM3_XM9.DA Find a path 1
+    Pin X_XM1.D Find a path 1
+    Pin X_XM4.G Find a path 1
+  Net NET1
+    Pin X_XM4.S Find a path 1
+    Pin X_XM5.S Find a path 1
+    Pin X_XM2_XM3_XM9.DB Find a path 1
+  Net VOUT
+    Pin X_XM10.S Find a path 1
+    Pin X_XM8.D Find a path 1
+    Pin X_XM2_XM3_XM9.DC Find a path 1
+  Net VDD
+    Pin X_XM2_XM3_XM9.S Find a path 1
+    Pin X_XM4.B Find a path 1
+    Pin X_XM5.B Find a path 1
+  Net NET2
+    Pin X_XM6_XM7.DA Find a path 1
+    Pin X_XM4.D Find a path 1
+  Net DIFF
+    Pin X_XM6_XM7.DB Find a path 1
+    Pin X_XM10.G Find a path 1
+    Pin X_XM8.G Find a path 1
+    Pin X_XM5.D Find a path 1
+  Net VSS
+    Pin X_XM6_XM7.S Find a path 1
+    Pin X_XM8.S Find a path 1
+    Pin X_XM1.S Find a path 1
+    Pin X_XM10.B Find a path 1
+Node 

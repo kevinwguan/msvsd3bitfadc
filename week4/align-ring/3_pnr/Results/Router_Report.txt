@@ -1,0 +1,84 @@
+Node STAGE2_INV_2661262_0
+  Net VM
+    Pin X_M3.G Find a path 1
+    Pin X_M2.G Find a path 1
+    Pin X_M1.D Find a path 1
+    Pin X_M0.D Find a path 1
+  Net VI
+    Pin X_M1.G Find a path 1
+    Pin X_M0.G Find a path 1
+  Net SN
+    Pin X_M2.S Find a path 1
+    Pin X_M0.S Find a path 1
+  Net VO
+    Pin X_M3.D Find a path 1
+    Pin X_M2.D Find a path 1
+  Net SP
+    Pin X_M3.S Find a path 1
+    Pin X_M1.S Find a path 1
+Node STAGE2_INV_85542588_0
+  Net VM
+    Pin X_M3.G Find a path 1
+    Pin X_M2.G Find a path 1
+    Pin X_M1.D Find a path 1
+    Pin X_M0.D Find a path 1
+  Net VI
+    Pin X_M1.G Find a path 1
+    Pin X_M0.G Find a path 1
+  Net SN
+    Pin X_M2.S Find a path 1
+    Pin X_M0.S Find a path 1
+  Net VO
+    Pin X_M3.D Find a path 1
+    Pin X_M2.D Find a path 1
+  Net SP
+    Pin X_M3.S Find a path 1
+    Pin X_M1.S Find a path 1
+Node INV_80711309_0
+  Net ZN
+    Pin X_M1.D Find a path 1
+    Pin X_M0.D Find a path 1
+  Net I
+    Pin X_M1.G Find a path 1
+    Pin X_M0.G Find a path 1
+Node INV_51832211_0
+  Net ZN
+    Pin X_M1.D Find a path 1
+    Pin X_M0.D Find a path 1
+  Net I
+    Pin X_M1.G Find a path 1
+    Pin X_M0.G Find a path 1
+Node RING-FINAL_0
+  Net GND
+    Pin X_XM11_XM12_XM13_XM14.SN Find a path 1
+    Pin X_XM1_XM2_XM3_XM4.SN Find a path 1
+    Pin X_XM7.B Find a path 1
+    Pin X_XM10.B Find a path 1
+    Pin X_XM8_XM9.SN Find a path 1
+    Pin X_XM5_XM6.SN Find a path 1
+  Net VDD
+    Pin X_XM11_XM12_XM13_XM14.SP Find a path 1
+    Pin X_XM1_XM2_XM3_XM4.SP Find a path 1
+    Pin X_XM7.D Find a path 1
+    Pin X_XM8_XM9.SP Find a path 1
+    Pin X_XM5_XM6.SP Find a path 1
+  Net CLKIN
+    Pin X_XM1_XM2_XM3_XM4.VI Find a path 1
+    Pin X_XM7.S Find a path 1
+    Pin X_XM10.S Find a path 1
+  Net NET2
+    Pin X_XM11_XM12_XM13_XM14.VI Find a path 1
+    Pin X_XM1_XM2_XM3_XM4.VO Find a path 1
+  Net NET3
+    Pin X_XM11_XM12_XM13_XM14.VO Find a path 1
+    Pin X_XM5_XM6.I Find a path 1
+  Net CLKOUT
+    Pin X_XM10.D Find a path 1
+    Pin X_XM5_XM6.ZN Find a path 1
+  Net CLK1
+    Pin X_XM7.G Find a path 1
+    Pin X_XM8_XM9.I Find a path 1
+  Net CLK2
+    Pin X_XM8_XM9.ZN Find a path 1
+    Pin X_XM10.G Find a path 1
+Node 

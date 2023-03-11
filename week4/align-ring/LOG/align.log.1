@@ -1,0 +1,10 @@
+2023-03-10 15:53:24 align.main ERROR : No spice files found in netlist directory /home/kevin/Downloads/msvsd3bitfadc/week4/align-ring/ring. Exiting...
+2023-03-10 15:53:24 align.cmdline ERROR : Fatal Error. Cannot proceed
+Traceback (most recent call last):
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/cmdline.py", line 176, in parse_args
+    return schematic2layout(**vars(arguments))
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/main.py", line 154, in schematic2layout
+    netlist = extract_netlist_files(netlist_dir, netlist_file)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/main.py", line 77, in extract_netlist_files
+    raise FileNotFoundError(2, 'No matching netlist files', f'{netlist_dir}/*(.sp|.cdl)')
+FileNotFoundError: [Errno 2] No matching netlist files: '/home/kevin/Downloads/msvsd3bitfadc/week4/align-ring/ring/*(.sp|.cdl)'

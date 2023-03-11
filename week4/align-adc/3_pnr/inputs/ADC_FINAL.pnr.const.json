@@ -1,0 +1,15 @@
+{
+  "constraints": [
+    {
+      "pairs": [
+        {
+          "type": "sympair",
+          "block1": "X_XM4",
+          "block2": "X_XM5"
+        }
+      ],
+      "const_name": "SymmBlock",
+      "axis_dir": "V"
+    }
+  ]
+}

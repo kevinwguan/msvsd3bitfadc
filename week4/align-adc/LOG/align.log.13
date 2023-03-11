@@ -1,0 +1,19 @@
+2023-03-10 14:49:21 align.main INFO : Reading netlist: /home/kevin/Downloads/msvsd3bitfadc/week4/align-adc/adc/adc_final.sp subckt=ADC_FINAL, flat=0
+2023-03-10 14:49:21 align.compiler.compiler INFO : Starting topology identification...
+2023-03-10 14:49:21 align.cmdline ERROR : Fatal Error. Cannot proceed
+Traceback (most recent call last):
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/cmdline.py", line 176, in parse_args
+    return schematic2layout(**vars(arguments))
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/main.py", line 164, in schematic2layout
+    primitive_lib = generate_hierarchy(netlist, subckt, topology_dir, flatten, pdk_dir)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/compiler/compiler.py", line 27, in generate_hierarchy
+    ckt_data, primitive_library = compiler_input(
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/compiler/compiler.py", line 76, in compiler_input
+    ckt_parser.parse(lines)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/schema/parser.py", line 96, in parse
+    self._dispatch(cache)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/schema/parser.py", line 106, in _dispatch
+    self._process_instance(token.value.upper(), args, kwargs)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/schema/parser.py", line 161, in _process_instance
+    assert len(args) == len(model.pins), \
+AssertionError: Model SKY130_FD_PR__NFET_01V8 has 4 pins ['D', 'G', 'S', 'B']. 58 nets ['VREF', 'VREF', 'VSS', 'VSS', 'SKY130_FD_PR__NFET_01V8', 'M2', 'VREF', 'VREF', 'VDD', 'VDD', 'SKY130_FD_PR__PFET_01V8', 'M3', 'NET1', 'VREF', 'VDD', 'VDD', 'SKY130_FD_PR__PFET_01V8', 'M4', 'NET2', 'VREF', 'NET1', 'VDD', 'SKY130_FD_PR__PFET_01V8', 'M5', 'DIFF', 'VPOS', 'NET1', 'VDD', 'SKY130_FD_PR__PFET_01V8', 'M6', 'NET2', 'NET2', 'VSS', 'VSS', 'SKY130_FD_PR__NFET_01V8', 'M7', 'DIFF', 'NET2', 'VSS', 'VSS', 'SKY130_FD_PR__NFET_01V8', 'M8', 'VOUT', 'DIFF', 'VSS', 'VSS', 'SKY130_FD_PR__NFET_01V8', 'M9', 'VOUT', 'VREF', 'VDD', 'VDD', 'SKY130_FD_PR__PFET_01V8', 'M10', 'VOUT', 'DIFF', 'VOUT', 'VSS'] were passed when instantiating M1.

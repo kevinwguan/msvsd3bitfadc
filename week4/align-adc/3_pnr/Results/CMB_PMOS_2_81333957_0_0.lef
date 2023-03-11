@@ -1,0 +1,165 @@
+MACRO CMB_PMOS_2_81333957
+  ORIGIN 0 0 ;
+  FOREIGN CMB_PMOS_2_81333957 0 0 ;
+  SIZE 12.04 BY 7.56 ;
+  PIN DA
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 1.12 4.48 5.76 4.76 ;
+      LAYER M3 ;
+        RECT 8.89 0.26 9.17 4.78 ;
+      LAYER M2 ;
+        RECT 5.59 4.48 7.31 4.76 ;
+      LAYER M3 ;
+        RECT 7.17 4.2 7.45 4.62 ;
+      LAYER M2 ;
+        RECT 7.31 4.06 9.03 4.34 ;
+      LAYER M3 ;
+        RECT 8.89 4.015 9.17 4.385 ;
+    END
+  END DA
+  PIN DB
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 8 0.7 10.92 0.98 ;
+    END
+  END DB
+  PIN S
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M3 ;
+        RECT 3.73 0.68 4.01 6.88 ;
+      LAYER M3 ;
+        RECT 9.75 1.1 10.03 6.88 ;
+      LAYER M3 ;
+        RECT 3.73 6.115 4.01 6.485 ;
+      LAYER M2 ;
+        RECT 3.87 6.16 9.89 6.44 ;
+      LAYER M3 ;
+        RECT 9.75 6.115 10.03 6.485 ;
+    END
+  END S
+  PIN DC
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 1.12 0.28 5.76 0.56 ;
+    END
+  END DC
+  OBS 
+  LAYER M1 ;
+        RECT 8.045 0.335 8.295 3.865 ;
+  LAYER M1 ;
+        RECT 8.045 4.115 8.295 5.125 ;
+  LAYER M1 ;
+        RECT 8.045 6.215 8.295 7.225 ;
+  LAYER M1 ;
+        RECT 7.615 0.335 7.865 3.865 ;
+  LAYER M1 ;
+        RECT 8.475 0.335 8.725 3.865 ;
+  LAYER M1 ;
+        RECT 8.905 0.335 9.155 3.865 ;
+  LAYER M1 ;
+        RECT 8.905 4.115 9.155 5.125 ;
+  LAYER M1 ;
+        RECT 8.905 6.215 9.155 7.225 ;
+  LAYER M1 ;
+        RECT 9.335 0.335 9.585 3.865 ;
+  LAYER M1 ;
+        RECT 9.765 0.335 10.015 3.865 ;
+  LAYER M1 ;
+        RECT 9.765 4.115 10.015 5.125 ;
+  LAYER M1 ;
+        RECT 9.765 6.215 10.015 7.225 ;
+  LAYER M1 ;
+        RECT 10.195 0.335 10.445 3.865 ;
+  LAYER M1 ;
+        RECT 10.625 0.335 10.875 3.865 ;
+  LAYER M1 ;
+        RECT 10.625 4.115 10.875 5.125 ;
+  LAYER M1 ;
+        RECT 10.625 6.215 10.875 7.225 ;
+  LAYER M1 ;
+        RECT 11.055 0.335 11.305 3.865 ;
+  LAYER M2 ;
+        RECT 8.86 0.28 10.06 0.56 ;
+  LAYER M2 ;
+        RECT 8 4.48 10.92 4.76 ;
+  LAYER M2 ;
+        RECT 8 6.58 10.92 6.86 ;
+  LAYER M2 ;
+        RECT 7.57 1.12 11.35 1.4 ;
+  LAYER M3 ;
+        RECT 8.89 0.26 9.17 4.78 ;
+  LAYER M2 ;
+        RECT 8 0.7 10.92 0.98 ;
+  LAYER M3 ;
+        RECT 9.75 1.1 10.03 6.88 ;
+  LAYER M1 ;
+        RECT 1.165 0.335 1.415 3.865 ;
+  LAYER M1 ;
+        RECT 1.165 4.115 1.415 5.125 ;
+  LAYER M1 ;
+        RECT 1.165 6.215 1.415 7.225 ;
+  LAYER M1 ;
+        RECT 0.735 0.335 0.985 3.865 ;
+  LAYER M1 ;
+        RECT 1.595 0.335 1.845 3.865 ;
+  LAYER M1 ;
+        RECT 2.025 0.335 2.275 3.865 ;
+  LAYER M1 ;
+        RECT 2.025 4.115 2.275 5.125 ;
+  LAYER M1 ;
+        RECT 2.025 6.215 2.275 7.225 ;
+  LAYER M1 ;
+        RECT 2.455 0.335 2.705 3.865 ;
+  LAYER M1 ;
+        RECT 2.885 0.335 3.135 3.865 ;
+  LAYER M1 ;
+        RECT 2.885 4.115 3.135 5.125 ;
+  LAYER M1 ;
+        RECT 2.885 6.215 3.135 7.225 ;
+  LAYER M1 ;
+        RECT 3.315 0.335 3.565 3.865 ;
+  LAYER M1 ;
+        RECT 3.745 0.335 3.995 3.865 ;
+  LAYER M1 ;
+        RECT 3.745 4.115 3.995 5.125 ;
+  LAYER M1 ;
+        RECT 3.745 6.215 3.995 7.225 ;
+  LAYER M1 ;
+        RECT 4.175 0.335 4.425 3.865 ;
+  LAYER M1 ;
+        RECT 4.605 0.335 4.855 3.865 ;
+  LAYER M1 ;
+        RECT 4.605 4.115 4.855 5.125 ;
+  LAYER M1 ;
+        RECT 4.605 6.215 4.855 7.225 ;
+  LAYER M1 ;
+        RECT 5.035 0.335 5.285 3.865 ;
+  LAYER M1 ;
+        RECT 5.465 0.335 5.715 3.865 ;
+  LAYER M1 ;
+        RECT 5.465 4.115 5.715 5.125 ;
+  LAYER M1 ;
+        RECT 5.465 6.215 5.715 7.225 ;
+  LAYER M1 ;
+        RECT 5.895 0.335 6.145 3.865 ;
+  LAYER M2 ;
+        RECT 1.12 6.58 5.76 6.86 ;
+  LAYER M2 ;
+        RECT 0.69 0.7 6.19 0.98 ;
+  LAYER M2 ;
+        RECT 1.12 0.28 5.76 0.56 ;
+  LAYER M2 ;
+        RECT 1.12 4.48 5.76 4.76 ;
+  LAYER M3 ;
+        RECT 3.73 0.68 4.01 6.88 ;
+  END 
+END CMB_PMOS_2_81333957

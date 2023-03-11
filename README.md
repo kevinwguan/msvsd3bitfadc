@@ -144,3 +144,11 @@ export PATH=~/OpenROAD-flow-scripts/tools/install/OpenROAD/bin:~/OpenROAD-flow-s
 ALIGN flow utilized with diode connected MOSFETs and capacitors left out
 GDS files placed into corresponding folders.
 ![Align flow for counter analog files](img/week3/align-counter.png)
+## Week4
+![New Ring Oscillator](img/week4/ring-final.png)
+![ADC](img/wee4/adc-final.png)
+![Analog Sine Sim](img/wee4/sine.png)
+![Analog Clock Sim](img/wee4/ring.png)
+![Align Spice](img/wee4/align-spice)
+![Ring Layout](img/week4/ring-final-layout.png)
+![ADC Layout](img/wee4/adc-final-layout.png)

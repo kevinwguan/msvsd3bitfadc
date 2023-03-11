@@ -1,0 +1,608 @@
+{
+    "wires": [
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        10840,
+                        5600,
+                        20120,
+                        6160
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        26380,
+                        5560,
+                        26940,
+                        14600
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        19780,
+                        5600,
+                        23220,
+                        6160
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        22940,
+                        5880,
+                        23500,
+                        6720
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        23220,
+                        6440,
+                        26660,
+                        7000
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        26380,
+                        6350,
+                        26940,
+                        7090
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        17720,
+                        24080,
+                        21840,
+                        24640
+                    ],
+                    "sink_name": "X_XM4/G"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        10840,
+                        5600,
+                        20120,
+                        6160
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        26380,
+                        5560,
+                        26940,
+                        14600
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        19780,
+                        5600,
+                        23220,
+                        6160
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        22940,
+                        5880,
+                        23500,
+                        6720
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        23220,
+                        6440,
+                        26660,
+                        7000
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        26380,
+                        6350,
+                        26940,
+                        7090
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        12620,
+                        15640,
+                        13180,
+                        24680
+                    ],
+                    "sink_name": "X_XM1/D"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VREF",
+            "rect": [
+                16340,
+                15120,
+                16340,
+                15120
+            ],
+            "width": 30240
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        10840,
+                        5600,
+                        20120,
+                        6160
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        26380,
+                        5560,
+                        26940,
+                        14600
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        19780,
+                        5600,
+                        23220,
+                        6160
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        22940,
+                        5880,
+                        23500,
+                        6720
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        23220,
+                        6440,
+                        26660,
+                        7000
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        26380,
+                        6350,
+                        26940,
+                        7090
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        17720,
+                        24080,
+                        21840,
+                        24640
+                    ],
+                    "sink_name": "X_XM4/G"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        10840,
+                        5600,
+                        20120,
+                        6160
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        26380,
+                        5560,
+                        26940,
+                        14600
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        19780,
+                        5600,
+                        23220,
+                        6160
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        22940,
+                        5880,
+                        23500,
+                        6720
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        23220,
+                        6440,
+                        26660,
+                        7000
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        26380,
+                        6350,
+                        26940,
+                        7090
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DA"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        12620,
+                        15640,
+                        13180,
+                        24680
+                    ],
+                    "sink_name": "X_XM1/D"
+                }
+            ],
+            "layer": "M3",
+            "net_name": "VREF",
+            "rect": [
+                16340,
+                15120,
+                16340,
+                15120
+            ],
+            "width": 32680
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        24600,
+                        13160,
+                        30440,
+                        13720
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DB"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        16860,
+                        16520,
+                        22700,
+                        17080
+                    ],
+                    "sink_name": "X_XM4/S"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        25460,
+                        16520,
+                        31300,
+                        17080
+                    ],
+                    "sink_name": "X_XM5/S"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "NET1",
+            "rect": [
+                16340,
+                15120,
+                16340,
+                15120
+            ],
+            "width": 30240
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        10840,
+                        14000,
+                        20120,
+                        14560
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/DC"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        5680,
+                        15680,
+                        8080,
+                        16240
+                    ],
+                    "sink_name": "X_XM8/D"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        2300,
+                        15640,
+                        2860,
+                        17960
+                    ],
+                    "sink_name": "X_XM10/S"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VOUT",
+            "rect": [
+                16340,
+                15120,
+                16340,
+                15120
+            ],
+            "width": 30240
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M3",
+                    "rect": [
+                        16060,
+                        1360,
+                        16620,
+                        13760
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/S"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        28100,
+                        1360,
+                        28660,
+                        12920
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/S"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        16060,
+                        2150,
+                        16620,
+                        2890
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/S"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        16340,
+                        2240,
+                        28380,
+                        2800
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/S"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        28100,
+                        2150,
+                        28660,
+                        2890
+                    ],
+                    "sink_name": "X_XM2_XM3_XM9/S"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        17720,
+                        28280,
+                        21840,
+                        28840
+                    ],
+                    "sink_name": "X_XM4/B"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        26320,
+                        28280,
+                        30440,
+                        28840
+                    ],
+                    "sink_name": "X_XM5/B"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VDD",
+            "rect": [
+                16340,
+                15120,
+                16340,
+                15120
+            ],
+            "width": 30240
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        3960,
+                        13160,
+                        6360,
+                        13720
+                    ],
+                    "sink_name": "X_XM6_XM7/DB"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        5680,
+                        24080,
+                        8080,
+                        24640
+                    ],
+                    "sink_name": "X_XM8/G"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        2240,
+                        24080,
+                        4640,
+                        24640
+                    ],
+                    "sink_name": "X_XM10/G"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        26320,
+                        15680,
+                        30440,
+                        16240
+                    ],
+                    "sink_name": "X_XM5/D"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "DIFF",
+            "rect": [
+                16340,
+                15120,
+                16340,
+                15120
+            ],
+            "width": 30240
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M3",
+                    "rect": [
+                        4020,
+                        1360,
+                        4580,
+                        12920
+                    ],
+                    "sink_name": "X_XM6_XM7/S"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        11760,
+                        16480,
+                        12320,
+                        28880
+                    ],
+                    "sink_name": "X_XM1/S"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        8320,
+                        16480,
+                        8880,
+                        28880
+                    ],
+                    "sink_name": "X_XM8/S"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        2240,
+                        28280,
+                        4640,
+                        28840
+                    ],
+                    "sink_name": "X_XM10/B"
+                }
+            ],
+            "layer": "M3",
+            "net_name": "VSS",
+            "rect": [
+                16340,
+                15120,
+                16340,
+                15120
+            ],
+            "width": 32680
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        26320,
+                        24080,
+                        30440,
+                        24640
+                    ],
+                    "sink_name": "X_XM5/G"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VPOS",
+            "rect": [
+                16340,
+                15120,
+                16340,
+                15120
+            ],
+            "width": 30240
+        }
+    ]
+}

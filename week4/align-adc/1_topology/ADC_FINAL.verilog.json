@@ -1,0 +1,210 @@
+{
+  "modules": [
+    {
+      "name": "ADC_FINAL",
+      "parameters": [
+        "VDD",
+        "VOUT",
+        "VSS",
+        "VPOS"
+      ],
+      "constraints": [
+        {
+          "constraint": "SymmetricBlocks",
+          "pairs": [
+            [
+              "X_XM4",
+              "X_XM5"
+            ]
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "CMB_PMOS_2_81333957",
+          "instance_name": "X_XM2_XM3_XM9",
+          "fa_map": [
+            {
+              "formal": "DA",
+              "actual": "VREF"
+            },
+            {
+              "formal": "DB",
+              "actual": "NET1"
+            },
+            {
+              "formal": "DC",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "S",
+              "actual": "VDD"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "SCM_NMOS_43308780",
+          "instance_name": "X_XM6_XM7",
+          "fa_map": [
+            {
+              "formal": "DA",
+              "actual": "NET2"
+            },
+            {
+              "formal": "DB",
+              "actual": "DIFF"
+            },
+            {
+              "formal": "S",
+              "actual": "VSS"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DCL_NMOS_S_28285743",
+          "instance_name": "X_XM1",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "VREF"
+            },
+            {
+              "formal": "S",
+              "actual": "VSS"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "NMOS_S_54487678",
+          "instance_name": "X_XM8",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "G",
+              "actual": "DIFF"
+            },
+            {
+              "formal": "S",
+              "actual": "VSS"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DCAP_NMOS_B_17613965",
+          "instance_name": "X_XM10",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "VSS"
+            },
+            {
+              "formal": "G",
+              "actual": "DIFF"
+            },
+            {
+              "formal": "S",
+              "actual": "VOUT"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "PMOS_4T_25753472",
+          "instance_name": "X_XM4",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "VDD"
+            },
+            {
+              "formal": "D",
+              "actual": "NET2"
+            },
+            {
+              "formal": "G",
+              "actual": "VREF"
+            },
+            {
+              "formal": "S",
+              "actual": "NET1"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "PMOS_4T_25753472",
+          "instance_name": "X_XM5",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "VDD"
+            },
+            {
+              "formal": "D",
+              "actual": "DIFF"
+            },
+            {
+              "formal": "G",
+              "actual": "VPOS"
+            },
+            {
+              "formal": "S",
+              "actual": "NET1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CMB_PMOS_2_81333957",
+      "parameters": [
+        "DA",
+        "DB",
+        "DC",
+        "S"
+      ],
+      "constraints": [],
+      "instances": [
+        {
+          "abstract_template_name": "SCM_PMOS_42993348",
+          "instance_name": "X_M0_M1",
+          "fa_map": [
+            {
+              "formal": "DA",
+              "actual": "DA"
+            },
+            {
+              "formal": "DB",
+              "actual": "DB"
+            },
+            {
+              "formal": "S",
+              "actual": "S"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "PMOS_S_81354572",
+          "instance_name": "X_M2",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "DC"
+            },
+            {
+              "formal": "G",
+              "actual": "DA"
+            },
+            {
+              "formal": "S",
+              "actual": "S"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "global_signals": []
+}

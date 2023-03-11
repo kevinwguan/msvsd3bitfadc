@@ -1,0 +1,9 @@
+2023-03-10 14:54:00 align.cmdline ERROR : Fatal Error. Cannot proceed
+Traceback (most recent call last):
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/cmdline.py", line 176, in parse_args
+    return schematic2layout(**vars(arguments))
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/main.py", line 154, in schematic2layout
+    netlist = extract_netlist_files(netlist_dir, netlist_file)
+  File "/home/kevin/ALIGN-public/general/lib/python3.10/site-packages/align/main.py", line 87, in extract_netlist_files
+    assert len(netlist_files) == 1, "Only one .sp file allowed"
+AssertionError: Only one .sp file allowed

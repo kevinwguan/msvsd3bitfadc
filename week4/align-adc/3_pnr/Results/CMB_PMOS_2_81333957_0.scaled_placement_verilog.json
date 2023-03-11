@@ -1,0 +1,154 @@
+{
+  "global_signals": [],
+  "leaves": [
+    {
+      "abstract_name": "SCM_PMOS_42993348_X2_Y1",
+      "bbox": [
+        0,
+        0,
+        5160,
+        7560
+      ],
+      "concrete_name": "SCM_PMOS_42993348_X2_Y1",
+      "terminals": [
+        {
+          "name": "DA",
+          "rect": [
+            2010,
+            260,
+            2290,
+            4780
+          ]
+        },
+        {
+          "name": "DB",
+          "rect": [
+            1120,
+            700,
+            4040,
+            980
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            2870,
+            1100,
+            3150,
+            6880
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "PMOS_S_81354572_X6_Y1",
+      "bbox": [
+        0,
+        0,
+        6880,
+        7560
+      ],
+      "concrete_name": "PMOS_S_81354572_X6_Y1",
+      "terminals": [
+        {
+          "name": "D",
+          "rect": [
+            1120,
+            280,
+            5760,
+            560
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            1120,
+            4480,
+            5760,
+            4760
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            3730,
+            680,
+            4010,
+            6880
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "abstract_name": "CMB_PMOS_2_81333957",
+      "bbox": [
+        0,
+        0,
+        12040,
+        7560
+      ],
+      "concrete_name": "CMB_PMOS_2_81333957_0",
+      "constraints": [],
+      "instances": [
+        {
+          "abstract_template_name": "SCM_PMOS_42993348_X2_Y1",
+          "concrete_template_name": "SCM_PMOS_42993348_X2_Y1",
+          "fa_map": [
+            {
+              "actual": "DA",
+              "formal": "DA"
+            },
+            {
+              "actual": "DB",
+              "formal": "DB"
+            },
+            {
+              "actual": "S",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M0_M1",
+          "transformation": {
+            "oX": 6880,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "PMOS_S_81354572_X6_Y1",
+          "concrete_template_name": "PMOS_S_81354572_X6_Y1",
+          "fa_map": [
+            {
+              "actual": "DC",
+              "formal": "D"
+            },
+            {
+              "actual": "DA",
+              "formal": "G"
+            },
+            {
+              "actual": "S",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M2",
+          "transformation": {
+            "oX": 0,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        }
+      ],
+      "parameters": [
+        "DA",
+        "DB",
+        "DC",
+        "S"
+      ]
+    }
+  ]
+}
