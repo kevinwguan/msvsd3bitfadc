@@ -1,0 +1,256 @@
+timestamp 1507094319
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+port "clkout" 0 7285 2210 7335 2587 li
+port "clk1" 1 6220 1092 6250 1302 p
+port "vdd" 4 6536 1176 11524 2688 nw
+port "gnd" 2 6751 3894 6837 4170 pw
+node "a_3984_981#" 20929 2379.43 3984 981 p 0 0 0 0 0 0 0 0 11760 532 35280 1596 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 314748 20440 0 0 217800 9912 168224 6568 120064 4512 0 0 0 0 0 0 0 0
+node "a_5360_981#" 12911 1963.13 5360 981 p 0 0 0 0 0 0 0 0 44520 2104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 179856 11680 0 0 181600 8064 112448 4352 107072 3936 0 0 0 0 0 0 0 0
+node "clkout" 57758 1546.04 7285 2210 li 0 0 0 0 0 0 0 0 23520 1064 564480 25536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1765000 75600 641200 23348 78848 2928 0 0 0 0 0 0 0 0
+node "a_6220_2604#" 4054 1658.46 6220 2604 p 0 0 0 0 0 0 0 0 11760 532 11760 532 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44964 2920 0 0 116000 5040 49952 2120 0 0 0 0 0 0 0 0 0 0
+node "a_230_840#" 28608 5620.4 230 840 pdif 0 0 0 0 0 0 0 0 11760 532 282240 12768 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2203236 143080 0 0 1377400 62496 793296 29004 255920 9476 1028800 13180 0 0 0 0 0 0
+node "clk1" 6980 1807.91 6220 1092 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134892 8760 0 0 30300 1512 46144 1872 107072 3936 0 0 0 0 0 0 0 0
+node "a_2608_561#" 39246 2408.38 2608 561 p 0 0 0 0 0 0 0 0 11760 532 70560 3192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 584532 37960 0 0 378400 17136 235648 8976 185920 6864 0 0 0 0 0 0 0 0
+node "a_200_561#" 19084 2778.17 200 561 p 0 0 0 0 0 0 0 0 11760 532 141120 6384 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1124100 73000 0 0 711400 32256 464688 17380 251776 9216 0 0 0 0 0 0 0 0
+node "vdd" 62742 82385.1 6536 1176 nw 0 0 0 0 26353152 32768 0 0 407792 27364 1199940 54688 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4196400 183456 1869056 68768 637728 23448 0 0 0 0 0 0 0 0
+substrate "gnd" 0 0 6751 3894 pw 0 0 0 0 0 0 0 0 133560 6312 60928 4128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 504400 22176 668192 25544 440160 16392 0 0 0 0 0 0 0 0
+cap "a_200_561#" "a_3984_981#" 140.941
+cap "a_200_561#" "vdd" 16087.2
+cap "a_230_840#" "clkout" 4121.24
+cap "a_230_840#" "a_5360_981#" 201.717
+cap "a_5360_981#" "clkout" 642.948
+cap "clk1" "a_230_840#" 223.731
+cap "clk1" "clkout" 128.555
+cap "a_230_840#" "a_3984_981#" 203.083
+cap "a_200_561#" "a_2608_561#" 1754.49
+cap "a_3984_981#" "clkout" 1.61258
+cap "clk1" "a_5360_981#" 161.979
+cap "a_3984_981#" "a_5360_981#" 404.141
+cap "a_230_840#" "vdd" 30238.7
+cap "vdd" "clkout" 39280.2
+cap "vdd" "a_5360_981#" 2596.78
+cap "a_230_840#" "a_6220_2604#" 97.1765
+cap "a_6220_2604#" "clkout" 118.733
+cap "a_6220_2604#" "a_5360_981#" 106.37
+cap "clk1" "a_3984_981#" 27.7421
+cap "clk1" "vdd" 811.54
+cap "vdd" "a_3984_981#" 4569.96
+cap "a_2608_561#" "a_230_840#" 285.801
+cap "clk1" "a_6220_2604#" 215.843
+cap "a_2608_561#" "a_5360_981#" 13.0363
+cap "a_6220_2604#" "a_3984_981#" 1.87294
+cap "vdd" "a_6220_2604#" 778.816
+cap "a_200_561#" "a_230_840#" 3162.42
+cap "a_2608_561#" "clk1" 1.00919
+cap "a_2608_561#" "a_3984_981#" 1230.82
+cap "a_2608_561#" "vdd" 9073
+device msubckt sky130_fd_pr__pfet_01v8 11294 840 11295 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 11208 840 11209 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 11122 840 11123 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 11036 840 11037 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10950 840 10951 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10864 840 10865 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10778 840 10779 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10692 840 10693 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10606 840 10607 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10520 840 10521 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10434 840 10435 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10348 840 10349 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10262 840 10263 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10176 840 10177 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10090 840 10091 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10004 840 10005 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9918 840 9919 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9832 840 9833 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9746 840 9747 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9660 840 9661 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9574 840 9575 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9488 840 9489 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9402 840 9403 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9316 840 9317 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9230 840 9231 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9144 840 9145 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9058 840 9059 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8972 840 8973 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8886 840 8887 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8800 840 8801 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8714 840 8715 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8628 840 8629 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8542 840 8543 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8456 840 8457 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8370 840 8371 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8284 840 8285 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8198 840 8199 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8112 840 8113 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8026 840 8027 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7940 840 7941 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7854 840 7855 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7768 840 7769 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7682 840 7683 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7596 840 7597 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7510 840 7511 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7424 840 7425 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7338 840 7339 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7252 840 7253 841 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3554 840 3555 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3468 840 3469 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3382 840 3383 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3296 840 3297 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3210 840 3211 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3124 840 3125 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3038 840 3039 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2952 840 2953 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2866 840 2867 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2780 840 2781 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2694 840 2695 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2608 840 2609 841 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2178 840 2179 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2092 840 2093 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2006 840 2007 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1920 840 1921 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1834 840 1835 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1748 840 1749 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1662 840 1663 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1576 840 1577 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1490 840 1491 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1404 840 1405 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1318 840 1319 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1232 840 1233 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1146 840 1147 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1060 840 1061 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 974 840 975 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 888 840 889 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 802 840 803 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 716 840 717 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 630 840 631 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 544 840 545 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 458 840 459 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 372 840 373 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 286 840 287 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 200 840 201 841 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 6306 1302 6307 1303 l=30 w=210 "gnd" "clk1" 60 0 "vdd" 210 0 "a_5360_981#" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 6220 1302 6221 1303 l=30 w=210 "gnd" "clk1" 60 0 "a_5360_981#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 5790 1260 5791 1261 l=30 w=210 "vdd" "a_5360_981#" 60 0 "a_3984_981#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 5704 1260 5705 1261 l=30 w=210 "vdd" "a_5360_981#" 60 0 "vdd" 210 0 "a_3984_981#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 5618 1260 5619 1261 l=30 w=210 "vdd" "a_5360_981#" 60 0 "a_3984_981#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 5532 1260 5533 1261 l=30 w=210 "vdd" "a_5360_981#" 60 0 "vdd" 210 0 "a_3984_981#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 5446 1260 5447 1261 l=30 w=210 "vdd" "a_5360_981#" 60 0 "a_3984_981#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 5360 1260 5361 1261 l=30 w=210 "vdd" "a_5360_981#" 60 0 "vdd" 210 0 "a_3984_981#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4930 1260 4931 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "a_2608_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4844 1260 4845 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "vdd" 210 0 "a_2608_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4758 1260 4759 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "a_2608_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4672 1260 4673 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "vdd" 210 0 "a_2608_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4586 1260 4587 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "a_2608_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4500 1260 4501 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "vdd" 210 0 "a_2608_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4414 1260 4415 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "a_2608_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4328 1260 4329 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "vdd" 210 0 "a_2608_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4242 1260 4243 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "a_2608_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4156 1260 4157 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "vdd" 210 0 "a_2608_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 4070 1260 4071 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "a_2608_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3984 1260 3985 1261 l=30 w=210 "vdd" "a_3984_981#" 60 0 "vdd" 210 0 "a_2608_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 11294 2016 11295 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 11208 2016 11209 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 11122 2016 11123 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 11036 2016 11037 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10950 2016 10951 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10864 2016 10865 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10778 2016 10779 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10692 2016 10693 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10606 2016 10607 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10520 2016 10521 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10434 2016 10435 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10348 2016 10349 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10262 2016 10263 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10176 2016 10177 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10090 2016 10091 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 10004 2016 10005 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9918 2016 9919 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9832 2016 9833 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9746 2016 9747 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9660 2016 9661 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9574 2016 9575 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9488 2016 9489 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9402 2016 9403 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9316 2016 9317 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9230 2016 9231 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9144 2016 9145 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 9058 2016 9059 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8972 2016 8973 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8886 2016 8887 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8800 2016 8801 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8714 2016 8715 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8628 2016 8629 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8542 2016 8543 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8456 2016 8457 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8370 2016 8371 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8284 2016 8285 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8198 2016 8199 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8112 2016 8113 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 8026 2016 8027 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7940 2016 7941 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7854 2016 7855 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7768 2016 7769 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7682 2016 7683 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7596 2016 7597 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7510 2016 7511 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7424 2016 7425 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7338 2016 7339 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "clkout" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 7252 2016 7253 2017 l=30 w=210 "vdd" "a_230_840#" 60 0 "vdd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 6822 2016 6823 2017 l=30 w=210 "vdd" "clk1" 60 0 "a_6220_2604#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 6736 2016 6737 2017 l=30 w=210 "vdd" "clk1" 60 0 "vdd" 210 0 "a_6220_2604#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3554 2016 3555 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3468 2016 3469 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3382 2016 3383 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3296 2016 3297 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3210 2016 3211 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3124 2016 3125 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 3038 2016 3039 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2952 2016 2953 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2866 2016 2867 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2780 2016 2781 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2694 2016 2695 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2608 2016 2609 2017 l=30 w=210 "vdd" "a_2608_561#" 60 0 "vdd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2178 2016 2179 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2092 2016 2093 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 2006 2016 2007 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1920 2016 1921 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1834 2016 1835 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1748 2016 1749 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1662 2016 1663 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1576 2016 1577 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1490 2016 1491 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1404 2016 1405 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1318 2016 1319 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1232 2016 1233 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1146 2016 1147 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 1060 2016 1061 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 974 2016 975 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 888 2016 889 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 802 2016 803 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 716 2016 717 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 630 2016 631 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 544 2016 545 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 458 2016 459 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 372 2016 373 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 286 2016 287 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "a_230_840#" 210 0 "vdd" 210 0
+device msubckt sky130_fd_pr__pfet_01v8 200 2016 201 2017 l=30 w=210 "vdd" "a_200_561#" 60 0 "vdd" 210 0 "a_230_840#" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 5618 2394 5619 2395 l=30 w=210 "gnd" "a_5360_981#" 60 0 "a_3984_981#" 210 0 "gnd" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 5532 2394 5533 2395 l=30 w=210 "gnd" "a_5360_981#" 60 0 "gnd" 210 0 "a_3984_981#" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 4500 2394 4501 2395 l=30 w=210 "gnd" "a_3984_981#" 60 0 "a_2608_561#" 210 0 "gnd" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 4414 2394 4415 2395 l=30 w=210 "gnd" "a_3984_981#" 60 0 "gnd" 210 0 "a_2608_561#" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 6306 2814 6307 2815 l=30 w=210 "gnd" "a_6220_2604#" 60 0 "clkout" 210 0 "a_5360_981#" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 6220 2814 6221 2815 l=30 w=210 "gnd" "a_6220_2604#" 60 0 "a_5360_981#" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 9316 3150 9317 3151 l=30 w=210 "gnd" "a_230_840#" 60 0 "clkout" 210 0 "gnd" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 9230 3150 9231 3151 l=30 w=210 "gnd" "a_230_840#" 60 0 "gnd" 210 0 "clkout" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 6822 3150 6823 3151 l=30 w=210 "gnd" "clk1" 60 0 "a_6220_2604#" 210 0 "gnd" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 6736 3150 6737 3151 l=30 w=210 "gnd" "clk1" 60 0 "gnd" 210 0 "a_6220_2604#" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 3124 3150 3125 3151 l=30 w=210 "gnd" "a_2608_561#" 60 0 "a_200_561#" 210 0 "gnd" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 3038 3150 3039 3151 l=30 w=210 "gnd" "a_2608_561#" 60 0 "gnd" 210 0 "a_200_561#" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 1232 3150 1233 3151 l=30 w=210 "gnd" "a_200_561#" 60 0 "a_230_840#" 210 0 "gnd" 210 0
+device msubckt sky130_fd_pr__nfet_01v8 1146 3150 1147 3151 l=30 w=210 "gnd" "a_200_561#" 60 0 "gnd" 210 0 "a_230_840#" 210 0

@@ -1,0 +1,24 @@
+** sch_path: /home/kevin/Downloads/msvsd3bitfadc/week4/xschem/analog_onlyring_tb.sch
+**.subckt analog_onlyring_tb out in
+*.ipin out
+*.ipin in
+x1 out in net1 GND ring-final
+V1 net1 GND 1.8
+.save i(v1)
+V3 in GND PWL(0 1.8 0.24n 1.8 0.25n 0)
+.save i(v3)
+**** begin user architecture code
+
+
+.include RING-FINAL.spice
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.control
+	tran 0.01n 4n
+	plot v(in) v(out)
+.endc
+.save all
+
+
+
+.GLOBAL GND
+.end
