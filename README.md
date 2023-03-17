@@ -158,3 +158,15 @@ GDS files placed into corresponding folders.
 ![ADC Post Layout Test Spice](img/week4/adc-final-test-postspice.png)
 ![ADC Post Layout Sine Sim](img/week4/adc-final-sine-postsim.png)
 ![ADC Post Layout Ring Sim](img/week4/adc-final-ring-postsim.png)
+## Week5
+Progress Update: unable to Complete OpenRoad flow in OpenFASOC
+Method: use existing infrasture of temp-sense-gen but replace file contents and comment/delete extraneous files
+![Analog Modules](img/week5/analog.png)
+![Modify and Comment](img/week5/modify-and-comment.png)
+![More Modifications](img/week5/more-modifications.png)
+- Renamed ring and adc gds/lef files to header and slc
+- Modified lef files for M(1-4) to met(1-4)
+![Lef](img/week5/lef.png)
+![Progress](img/week5/progress.png)
+![Output](img/week5/output.png)
+![Log](img/week5/log.png)
